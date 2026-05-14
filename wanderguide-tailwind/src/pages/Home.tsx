@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import DestinationCard from '../components/DestinationCard';
-import { withBase } from '../utils/asset';
+import { withBase } from '../App';
 interface Destination {
   id: string;
   name: string;

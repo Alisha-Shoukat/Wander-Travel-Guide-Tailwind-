@@ -8,6 +8,12 @@ import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Dashboard from './pages/Dashboard';
 
+export function withBase(path: string): string {
+  const trimmed = path.replace(/^\/+/, '');
+  const base = import.meta.env?.BASE_URL ?? '/';
+  return base.endsWith('/') ? `${base}${trimmed}` : `${base}/${trimmed}`;
+}
+
 export default function App() {
   return (
     <BrowserRouter>

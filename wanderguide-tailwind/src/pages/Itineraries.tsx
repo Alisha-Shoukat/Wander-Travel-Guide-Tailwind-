@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Accordion from '../components/Accordion';
-import { withBase } from '../utils/asset';
+import { withBase } from '../App';
 interface AccordionItem {
   header: string;
   body: string;

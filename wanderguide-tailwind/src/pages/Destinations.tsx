@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import { withBase } from '../utils/asset';
+import { withBase } from '../App';
 interface Destination {
   id: string;
   name: string;

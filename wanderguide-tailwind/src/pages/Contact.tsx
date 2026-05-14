@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import { withBase } from '../utils/asset';
+import { withBase } from '../App';
 type ToastType = 'success' | 'error' | 'info';
 
 const FAQ_ROWS = [

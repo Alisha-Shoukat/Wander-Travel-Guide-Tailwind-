@@ -2,7 +2,7 @@ import { useCallback, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import { withBase } from '../utils/asset';
+import { withBase } from '../App';
 interface ServiceItem {
   icon: string;
   title: string;

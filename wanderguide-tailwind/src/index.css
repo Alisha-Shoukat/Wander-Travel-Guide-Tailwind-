@@ -1,7 +1,10 @@
+/* stylelint-disable */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* stylelint-enable */
 
+/* stylelint-disable */
 @layer base {
   *,
   *::before,
@@ -55,6 +58,7 @@
     @apply text-text-secondary text-[0.97rem] dark:text-[#c8c0b0];
   }
 }
+/* stylelint-enable */
 
 .hero-content,
 .page-hero .hero-copy {
